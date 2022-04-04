@@ -10,6 +10,6 @@ public class resultados {
 	@GetMapping("/resultado/{resultado}")
 	public String resultado(@PathVariable  String resultado) {
 		
-		return "El resultado es: " + resultado;
+		return "El Resultado es: " + resultado;
 	}
 }
